@@ -1,0 +1,111 @@
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+.navbar {
+    border-bottom: solid 3px red;
+}
+
+body {
+    min-height: 110vh;
+}
+
+.jumbotron {
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    .search {
+        position: relative;
+        box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+    }
+
+    input {
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4
+    }
+
+    input:focus {
+        box-shadow: none;
+        border: 1px solid $main-color
+    }
+
+    .fa-search {
+        position: absolute;
+        top: 23px;
+        left: 16px;
+        color: $main-color;
+    }
+
+    button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+    }
+}
+
+.card {
+    border: 0 !important;
+    border-radius: 0 !important;
+
+    .card-img-top {
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+    }
+}
+
+.section-gray-gradient {
+    -webkit-font-smoothing: antialiased;
+
+    .card {
+        .card-body {
+            text-align: center !important;
+
+            .badge {
+                font-size: 1.00em;
+            }
+        }
+    }
+
+    .space-110 {
+        height: 110px;
+        display: block;
+    }
+
+    h1 {
+        font-weight: 200;
+
+        small {
+            font-size: 60%;
+            color: #9a9a9a;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+}
+
+
+// Show Real Estate
+#show-realEstate {
+    .information-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 205px;
+        height: 123px;
+        background-color: $main-color;
+        margin: 11px;
+    }
+}
